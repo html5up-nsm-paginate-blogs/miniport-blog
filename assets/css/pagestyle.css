@@ -1,0 +1,40 @@
+textarea.markdown
+{
+	visibility: hidden;
+}
+
+table
+{
+	margin: 0 auto;
+}
+
+table, th, td
+{
+	/*max-width:800px;*/
+	border: 0px solid #3a3535;
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+th
+{
+	cursor: default;
+	font-weight:normal;
+	padding-top: 4px;
+	padding-bottom:5px;
+}
+
+td
+{
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: left !important;
+}
+
+noselect
+{
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
